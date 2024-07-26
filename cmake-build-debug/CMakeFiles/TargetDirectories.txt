@@ -1,0 +1,3 @@
+C:/Users/renar/Software/C++/SampleBook/cmake-build-debug/CMakeFiles/SampleBook.dir
+C:/Users/renar/Software/C++/SampleBook/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/renar/Software/C++/SampleBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
