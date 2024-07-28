@@ -73,6 +73,12 @@ build CMakeFiles/SampleBook.dir/OrderBook/dataStructure/bTree.cpp.obj: CXX_COMPI
   OBJECT_DIR = CMakeFiles\SampleBook.dir
   OBJECT_FILE_DIR = CMakeFiles\SampleBook.dir\OrderBook\dataStructure
 
+build CMakeFiles/SampleBook.dir/OrderBook/dataStructure/test.cpp.obj: CXX_COMPILER__SampleBook_unscanned_Debug C$:/Users/renar/Software/C++/SampleBook/OrderBook/dataStructure/test.cpp || cmake_object_order_depends_target_SampleBook
+  DEP_FILE = CMakeFiles\SampleBook.dir\OrderBook\dataStructure\test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SampleBook.dir
+  OBJECT_FILE_DIR = CMakeFiles\SampleBook.dir\OrderBook\dataStructure
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SampleBook
@@ -81,7 +87,7 @@ build CMakeFiles/SampleBook.dir/OrderBook/dataStructure/bTree.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable SampleBook.exe
 
-build SampleBook.exe: CXX_EXECUTABLE_LINKER__SampleBook_Debug CMakeFiles/SampleBook.dir/main.cpp.obj CMakeFiles/SampleBook.dir/Order/Order.cpp.obj CMakeFiles/SampleBook.dir/OrderBook/OrderBook.cpp.obj CMakeFiles/SampleBook.dir/OrderBook/dataStructure/bTree.cpp.obj
+build SampleBook.exe: CXX_EXECUTABLE_LINKER__SampleBook_Debug CMakeFiles/SampleBook.dir/main.cpp.obj CMakeFiles/SampleBook.dir/Order/Order.cpp.obj CMakeFiles/SampleBook.dir/OrderBook/OrderBook.cpp.obj CMakeFiles/SampleBook.dir/OrderBook/dataStructure/bTree.cpp.obj CMakeFiles/SampleBook.dir/OrderBook/dataStructure/test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SampleBook.dir
